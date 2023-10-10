@@ -4,7 +4,7 @@
 
 Essa classe define um nó individual da lista ligada. Cada nó contém um valor e uma referência para o próximo nó.
 
-- `__init__(self, value, next=None)`: Construtor do nó da lista ligada. Ele recebe um valor (obrigatório) e uma referência ao próximo nó (opcional).
+- `__init__(self, value, next=None)`: Construtor do nó da lista ligada. Ele recebe um valor (obrigatório) e uma referência ao próximo nó (opcional) como parametros.
 - `value`: Propriedade que retorna o valor do nó atual.
 - `next`: Propriedade que retorna o próximo nó.
 - `next(self, node)`: Método que define o próximo nó.
